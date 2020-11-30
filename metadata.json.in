@@ -1,0 +1,8 @@
+{
+"uuid": "@uuid@",
+"version": "@version@",
+"name": "Snow",
+"description": "Let it snow",
+"shell-version": ["@shell_version@"],
+"url": "https://github.com/endlessm/eos-snow-extension"
+}
