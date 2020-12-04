@@ -42,7 +42,7 @@ var Flake = GObject.registerClass({
         const _whichFlake = random(0, flakes.length);
 
         super._init({
-            style_class: 'snowflake' + random(1, 4),
+            style_class: 'snowflake snowflake' + random(1, 4),
             text: flakes[_whichFlake],
         });
     }
