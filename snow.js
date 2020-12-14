@@ -86,7 +86,7 @@ class SnowIndicator extends PanelMenu.Button {
         super._init(0.5, _("Snow"));
 
         this._hbox = new St.BoxLayout({ style_class: 'panel-status-menu-box' });
-        this._label = new St.Label({text: "🎅", y_align: Clutter.ActorAlign.CENTER});
+        this._label = new St.Label({text: "❄️", y_align: Clutter.ActorAlign.CENTER});
         this._hbox.add_child(this._label);
         this._hbox.add_child(PopupMenu.arrowIcon(St.Side.BOTTOM));
 
