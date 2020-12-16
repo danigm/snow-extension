@@ -92,7 +92,7 @@ class SnowIndicator extends PanelMenu.Button {
 
         this.add_child(this._hbox);
 
-        this._snowSwitch = new PopupMenu.PopupSwitchMenuItem(_('Snow'), false);
+        this._snowSwitch = new PopupMenu.PopupSwitchMenuItem(_('Let it snow!'), false);
         this._snowSwitch.connect('toggled', () => { this._snow() });
         this.menu.addMenuItem(this._snowSwitch);
         this.connect('destroy', () => {
