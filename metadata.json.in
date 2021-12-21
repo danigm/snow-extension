@@ -3,5 +3,5 @@
 "version": "@version@",
 "name": "Snow",
 "description": "Let it snow",
-"shell-version": ["@shell_version@"]
+"shell-version": ["3.38", "40", "41"]
 }

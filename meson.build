@@ -1,5 +1,5 @@
 project('snow-extension',
-  version: '3.38.0',
+  version: '41.0',
   meson_version: '>= 0.40.0'
 )
 
